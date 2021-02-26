@@ -1,5 +1,5 @@
 # Base Image
-FROM node:lts-alpine
+FROM registry.connect.redhat.com/storageos/node
 
 # Set working directory
 WORKDIR /app
